@@ -48,6 +48,7 @@ fi
 %defattr(-,root,root,0755)
 %attr(0644,root,root) %{_datadir}/selinux/packages/%{modulename}.pp.bz2
 %ghost %{_sharedstatedir}/selinux/%{selinuxtype}/active/modules/200/%{modulename}
+%license COPYING
 
 %changelog
 * Wed Jul 18 2018 Jakub Janco <jjanco@redhat.com> - 1.0.0-1
