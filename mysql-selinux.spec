@@ -50,6 +50,9 @@ fi
 %ghost %{_sharedstatedir}/selinux/%{selinuxtype}/active/modules/200/%{modulename}
 
 %changelog
+* Fri Jul 27 2018 Jakub Janco <jjanco@redhat.com> - 1.0.0-2
+- reflect latest changes of Independent Product Policy
+
 * Wed Jul 18 2018 Jakub Janco <jjanco@redhat.com> - 1.0.0-1
 - First Build
 
