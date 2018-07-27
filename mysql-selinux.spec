@@ -11,7 +11,7 @@ URL: https://github.com/kubco2/mysql-selinux
 Summary: SELinux policies for product
 Source0: mysql-selinux.tar.gz
 BuildArch: noarch
-BuildRequires: selinux-policy
+BuildRequires: selinux-policy-devel
 %{?selinux_requires}
 
 %description
