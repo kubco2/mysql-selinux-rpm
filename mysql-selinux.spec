@@ -6,7 +6,7 @@
 Name: mysql-selinux
 Version: 1.0.0
 Release: 2%{?dist}
-License: GPLv2
+License: GPLv3
 URL: https://github.com/kubco2/mysql-selinux
 Summary: SELinux policies for product
 Source0: mysql-selinux.tar.gz
@@ -48,6 +48,7 @@ fi
 %defattr(-,root,root,0755)
 %attr(0644,root,root) %{_datadir}/selinux/packages/%{modulename}.pp.bz2
 %ghost %{_sharedstatedir}/selinux/%{selinuxtype}/active/modules/200/%{modulename}
+%license COPYING
 
 %changelog
 * Fri Jul 27 2018 Jakub Janco <jjanco@redhat.com> - 1.0.0-2
